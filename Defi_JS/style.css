@@ -1,0 +1,13 @@
+div {
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
