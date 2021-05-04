@@ -18,7 +18,7 @@ console.log(count);
 
 function envoyer() {
     const nom = document.getElementById("nom").value;
-    const lettres = /^[a-zA-Z]+$/;
+    const lettres = /^[a-zA-Zä-ÿÄ-ÿ]+$/;
     const autorise = nom.match(lettres);
     const message = document.getElementById('message')
 
