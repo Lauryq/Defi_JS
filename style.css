@@ -1,0 +1,27 @@
+div {
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_form input:invalid {
+    border: 2px solid red;
+
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
