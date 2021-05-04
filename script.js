@@ -16,14 +16,19 @@ test.style.background = "red";
 console.log(count);
 });
 
-function show_alert() {
+function envoyer() {
     const nom = document.getElementById("nom").value;
     const lettres = /^[a-zA-Z]+$/;
     const autorise = nom.match(lettres);
+    const message = document.getElementById('message')
 
     if (autorise) {
-        alert("Formulaire envoyé")
+        document.getElementById('nom').style.border = "2px solid green";
+        message.innerHTML="Formulaire validée";
+        
     } else {
-        document.getElementById('errorname').innerHTML="Veuillez entrer un nom valide";
+        message.innerHTML="Veuillez entrer un nom valide";
+        document.getElementById('nom').style.border = "2px solid red";  
     }
 }
+

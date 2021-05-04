@@ -11,13 +11,14 @@
     
     <div class="test"></div>
 
-    <form class="error_from">
+    <form class="error_from" action="">
 
-        <input type="text" id="nom" placeholder="name" pattern="^[a-zA-Z]+$" title="- minuscules et majuscules"/>
-        <span class="error" id="errorname"></span>
-        <input type="submit" value="envoyer" onclick="show_alert()"/>
+        <input type="text" id="nom" placeholder="name"/>
+        <span id="message"></span>
+        <input type="button" value="envoyer" onclick="envoyer()"/>
 
     </form>
+    
 
     <script src="script.js"></script>
 
