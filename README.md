@@ -4,6 +4,7 @@ Défi pour l'ACS, première utilisation Javascript (PROJET TERMINÉE)
 ## Description  
 Consignes du projet : 
 
+* Exercice 1:
 Réaliser une div centrée au milieu de la page, de 50vh et 50vw, avec un fond rouge.
 Au clic le fond devient bleu.
 * Exercice 2:
